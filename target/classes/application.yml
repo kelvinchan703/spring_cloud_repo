@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+#配置服务的名称
+spring:
+  application:
+    name: cloud-demo-config
+  clould:
+    config:
+      server:
+        git:
+          uri: https://github.com/S1ow/cloud-demo.git
+          searchPaths: cloud-demo-repo
+
+
